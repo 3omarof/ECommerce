@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .btn{
+        @apply px-3 py-1 rounded-md uppercase bg-myColor-900 hover:bg-myColor-700  text-white transition-colors duration-300
+    }
+    .form-control{
+        @apply px-2 py-1 rounded-md focus:outline-none focus:border-myColor-900 border-2 border-myColor-500
+    }
+}
+
